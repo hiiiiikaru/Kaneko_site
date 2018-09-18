@@ -1,0 +1,273 @@
+header {
+  background-image: url(../img/bg_keyvisual.png);
+  color: #fff;
+  text-align: center;
+  background-size:cover;
+  padding-bottom: 100px;
+  font-family:futura;
+  font-weight:lighter;
+  font-stretch: condensed;
+}
+
+header ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: right;
+  margin-right: 250px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+header li {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.SAMPLE {
+  float: left;
+  margin-left: 180px;
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+header  h1 {
+  font-size: 70px;
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+
+.text1 p {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+/* ここだけインデントが多いので気をつけましょう！ */
+button {
+    font-size: 13px;
+    padding: 13px 30px;
+    color: #fff;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #a4ebe0;
+    margin-top: 5px;
+    margin-bottom: 90px;
+}
+
+.section1 {
+  color: #343434;
+  font-family:futura;
+  font-weight:lighter;
+  font-stretch: condensed;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.section1 h1 {
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.line {
+  color: #8de7fb;
+  margin-bottom: 23px;
+}
+
+.circle{
+  width: 30px;
+  height: 30px;
+  border-style: solid; border-width: 1px;
+  border-radius: 50%;
+  background: #fff;
+  border-color: #595858;
+  /*
+    borderの書き方ですが、この書き方でももちろん良いですが、
+    今回の場合, border: 1px solid #595858;
+    と書いた方が良いかなー
+   */
+  text-align: center;
+  float: left;
+  margin-left: 160px;
+}
+
+.circle2{
+  width: 30px;
+  height: 30px;
+  border-style: solid; border-width: 1px;
+  border-radius: 50%;
+  background: #fff;
+  border-color: #595858;
+  float: right;
+  margin-right: 160px;
+}
+
+.circle3{
+  width: 30px;
+  height: 30px;
+  border-style: solid; border-width: 1px;
+  border-radius: 50%;
+  background: #fff;
+  border-color: #595858;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.section1 ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.section1 h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section1 p{
+  color: #5b5b5b;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+}
+
+.section1 li {
+  margin-right: 40px;
+  margin-bottom: 130px;
+}
+
+.section1 li:last-child {
+  margin-right: 0;
+}
+
+.section2 {
+  color: #393939;
+  font-weight: lighter;
+  font-family: futura;
+  background-color: #ededed;
+  height: 700px;
+  position: relative;
+}
+.section2:before {
+    width: 50%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-image: url(../img/bg_about.png);
+}
+
+.section2 h1{
+  text-align:center;
+  font-size: 40px;
+  margin-top: 100px;
+  padding-top: 200px;
+  margin-right: 250px;
+}
+
+.line2 {
+  text-align: center;
+  color: #8de7fb;
+  margin-bottom: 23px;
+  margin-right: 200px;
+}
+
+.section2 h2{
+  text-align: center;
+  margin-right: 240px;
+  font-size: 30px;
+}
+
+.section2 p{
+  text-align: right;
+  color: #5b5b5b;
+  margin-right: 790px;
+  margin-left: 280px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  margin-top: 25px;
+}
+
+.section3 {
+  color: #393939;
+  font-weight: lighter;
+  font-family: futura;
+}
+
+.section3 {
+  text-align:center;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.line3 {
+  font-size: 15px;
+  text-align: center;
+  color: #8de7fb;
+  margin-bottom: 23px;
+}
+
+form {
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.name_email {
+  display: inline;
+}
+
+.Name {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1.4px solid #c1f9ff;
+}
+
+.email {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1.4px solid #adadad;
+}
+
+textarea {
+  width: 420px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1.4px solid #adadad;
+}
+
+button {
+  width: 200px;
+  height: 52px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #9ae9db;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer li {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-top: 25px;
+}

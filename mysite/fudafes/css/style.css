@@ -1,0 +1,353 @@
+/* headerのスタイル当ててくよー */
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  /* position: fixedっていうのを使うと、ヘッダーがスクロールしてもついてくるようになるよ！ */
+}
+
+.header-container {
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+
+  /* 最大の横幅を指定してあげる */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ulの子供(liたち)を横にならべるよー */
+
+.header-container ul {
+  display: flex;
+}
+
+/* liの横の余白をあけるよー */
+
+.header-container li {
+  margin-right: 20px;
+}
+
+/* liの「最後」の子に対して横余白をなくしてあげる 昨日ちらっとやったね！ */
+
+.header-container li:last-child {
+  margin-right: 0;
+}
+
+/* headerのaタグに対して指定してあげる */
+
+.header-container a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header-container a:hover {
+  /* aタグを「hover」したら不透明度を下げる指定だよー */
+  opacity: 0.7;
+}
+
+/* headerのスタイルここまでー */
+
+
+/* keyvisualデザイン当ててくー */
+.keyvisual {
+  height: 600px;
+
+  /* 背景に画像を配置してみよう！ */
+  background-image: url(../img/bg_top.jpg); /* ここで画像を詠み込もうー */
+  background-repeat: none; /* これがないと悲惨なことに。。。 */
+  background-size: cover; /* 画像のサイズを「画面」に合わせて配置する */
+  background-position: center; /* 画像の表示場所 */
+}
+
+.keyvisual-container{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+/* タイトル */
+.keyvisual-container h1{
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+/* サブタイトル */
+.keyvisual-container h2{
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+/* descriptionのスタイル */
+.keyvisual-container .keyvisual-description{
+  font-size: 22px;
+  margin-bottom: 26px;
+}
+
+/* 日付のスタイル */
+.keyvisual-container .keyvisual-data{
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 場所のスタイル */
+.keyvisual-container .keyvisual-prace{
+  font-size: 18px;
+}
+
+/* keyvisualデザインここまでー */
+
+/* aboutデザインここからー */
+
+.about{
+  background-image: url(../img/bg_about.jpg); /* ここで画像を詠み込もうー */
+  background-repeat: none; /* これがないと悲惨なことに。。。 */
+  background-size: cover; /* 画像のサイズを「画面」に合わせて配置する */
+  background-position: center; /* 画像の表示場所 */
+}
+
+.about-container{
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+
+  /* 文字が詰まって読みづらいので、行の高さを広げる */
+  line-height: 28px;
+
+  /* 最大の横幅を指定してあげる */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* aboutのタイトル */
+.about-container h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+
+/* aboutデザインここまでー */
+
+/* newsデザインここからー */
+.news{
+  background-image: url(../img/bg_news.jpg); /* ここで画像を詠み込もうー */
+  background-repeat: none; /* これがないと悲惨なことに。。。 */
+  background-size: cover; /* 画像のサイズを「画面」に合わせて配置する */
+  background-position: center; /* 画像の表示場所 */
+}
+
+.news-container{
+  padding: 80px 0;
+}
+
+/* newsのタイトル */
+.news-container h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+.news-container ul{
+  display: flex;
+  justify-content: center;
+}
+
+.news-container li{
+  width: 280px;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.news-container li:last-child{
+  margin-right: 0;
+}
+
+.news-container .news-image{
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  background-color: #ddd;
+
+}
+
+.news-container li p{
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+/* newsデザインここまでー */
+
+/* videoデザインここからー */
+
+.video{
+  background-image: url(../img/bg_video.jpg); /* ここで画像を詠み込もうー */
+  background-repeat: none; /* これがないと悲惨なことに。。。 */
+  background-size: cover; /* 画像のサイズを「画面」に合わせて配置する */
+  background-position: center; /* 画像の表示場所 */
+}
+
+.video-container{
+  padding: 80px 0;
+
+  /* 最大の横幅を指定してあげる */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* historyのタイトル */
+.video-container h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+/* videoのリストの設定 */
+.video-container ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container li{
+  width: 400px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.video-container li:last-child{
+  margin-right: 0;
+}
+
+.video-container li iframe{
+  width: 400px;
+  height: 200px;
+}
+
+/* videoデザインここまでー */
+
+/* historyデザインここからー */
+
+.history{
+  background-color: #111;
+}
+
+.history-container{
+  padding: 80px 0;
+
+  /* 最大の横幅を指定してあげる */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* historyのタイトル */
+.history-container h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+/* historyのリストの設定 */
+.history-container ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* historyのリンクの設定 */
+.history-container a{
+  display: block;
+  width: 200px;
+  height: 150px;
+  line-height: 150px;
+  background-color: #0f22c7;
+  border-radius: 3px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+.history-container a:hover{
+  opacity: 0.8;
+}
+
+/* historyのimgaeの右余白の設定 */
+.history-container .history-image{
+  color: #fff;
+}
+
+/* history imgaeの最後のliの右余白を0にする */
+.history-container li:last-child{
+  margin-right: 0;
+}
+
+/* historyデザインここまでー */
+
+/* accessのデザインここからー */
+
+.access{
+  background-color: #111;
+}
+
+.access-container h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, .5);
+}
+
+.access-container .access-map{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/map.jpg); /* ここで画像を詠み込もうー */
+  background-repeat: none; /* これがないと悲惨なことに。。。 */
+  background-size: cover; /* 画像のサイズを「画面」に合わせて配置する */
+  background-position: center; /* 画像の表示場所 */
+}
+
+/* accessのデザインここまでー */
+
+
+/* footerのデザインここからー */
+
+footer{
+  height: 80px;
+  line-height: 80px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* footerのデザインここまでー */

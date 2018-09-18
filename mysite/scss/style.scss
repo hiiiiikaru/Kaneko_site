@@ -1,0 +1,336 @@
+/****************************************************************
+-----------------------------------------------------------------
+    homeページここから
+-----------------------------------------------------------------
+*****************************************************************/
+
+header {
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 18px;
+
+      a {
+        text-decoration: none;
+        color: #f6f6f6;
+      }
+
+        a:hover{
+          color: rgba(255,255,255,.7);
+      }
+    }
+  }
+}
+
+
+/* ---------------------------------------------------------------
+    mainここから
+-----------------------------------------------------------------*/
+
+.main {
+   position: relative;
+   height: calc(100vh - 100px);
+   background-image: url(../img/newyor.png);
+   background-size: cover;
+
+  h2 {
+    font-size: 64px;
+  }
+
+  .white {
+    color: #fff;
+    position:absolute;
+    z-index: 7;
+  }
+
+  .black {
+    position: absolute;
+    left: 7px;
+    z-index: 6;
+  }
+
+  .Kaneko {
+    position: absolute;
+    top:35%;
+    left: 20%;
+  }
+
+  .Hikaru {
+    position: absolute;
+    top:41.5%;
+    left: 17.64%;
+  }
+
+  .circel1 {
+    width: 370px;
+    height: 370px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    position:absolute;
+    top: 20%;
+    left:  37%;
+    z-index: 9;
+  }
+
+    .imarge {
+     width: 360px;
+     height: 360px;
+     border-radius: 50%;
+     z-index: 10;
+     position: absolute;
+     top: 20.6%;
+     left: 37.35%;
+   }
+
+    .square1 {
+      width: 250px;
+      height: 250px;
+      background-color: #FF0000;
+      position: absolute;
+      left:32.63%;
+      top: 50%;
+      z-index: 3;
+   }
+
+    .square2{
+      width: 250px;
+      height: 250px;
+      background-color: #1f1f1f;
+      position: absolute;
+      top:50%;
+      left: 50%;
+   }
+
+   a {
+     font-size: 64px;
+     text-decoration: none;
+   }
+
+   .about{
+     position: absolute;
+     top: 75%;
+     left: 32.4%;
+     z-index: 8;
+   }
+
+   .works{
+     position: absolute;
+     top: 75%;
+     left: 54.5%;
+     z-index: 8;
+   }
+
+   .a{
+     color: #fff;
+     position: absolute;
+     top: 0%;
+   }
+
+   .bout{
+     color: #000;
+     position: absolute;
+     left: 35px;
+     font-weight: bold;
+   }
+
+   .orks{
+     color: #FFF;
+     position: absolute;
+     top: 0%;
+     left: 100%
+   }
+
+   .w{
+     color: #c4c4c4;
+   }
+
+   .Easter_egg1{
+     position: absolute;
+     top: 30%;
+     left: 96%;
+   }
+}
+
+
+/* ---------------------------------------------------------------
+    footerここから
+-----------------------------------------------------------------*/
+
+footer {
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+  ul {
+    list-style: none;
+    text-align: right;
+    li {
+      display: inline-block;
+      margin-top: 3px;
+      margin-right: 20px;
+      a:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+
+/****************************************************************
+-----------------------------------------------------------------
+  aboutページここから
+-----------------------------------------------------------------
+*****************************************************************/
+
+.header2 {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 18px;
+      a {
+        text-decoration: none;
+        color: #222;
+
+        }a:hover{
+          color: rgba(2,2,2,.4);
+      }
+    }
+  }
+}
+
+
+.aboutmain {
+  height: calc(100vh - 100px);
+  background-color: #222;
+  color: #f6f6f6;
+  font-family:  YuMincho;
+  .about_me {
+    writing-mode: vertical-rl;
+    max-width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0 auto;
+
+    ul {
+      display: inline-block;
+
+      li {
+        margin: auto;
+        margin-left: 50%;
+        margin-right: 10%;
+      }li:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .images {
+    max-width: 100%;
+
+    ul {
+      display: flex;
+
+      li {
+        margin: auto;
+
+        img {
+          border-radius: 50%;
+          border: solid;
+          border-width: thick;
+          border-color: #c4c4c4;
+        }
+      }
+    }
+  }
+}
+
+
+.footer2 {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 50px;
+
+  ul {
+    list-style: none;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin-top: 3px;
+      margin-right: 20px;
+
+      a:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+
+
+
+
+/****************************************************************
+-----------------------------------------------------------------
+    worksページここから
+-----------------------------------------------------------------
+*****************************************************************/
+
+.worksmain{
+  height: calc(100vh - 160px);
+  background-color: #f6f6f6;
+  padding: 30px;
+  color: #222;
+
+  ul {
+    width: auto;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: 40px;
+      margin-bottom: 60px;
+
+      p {
+        text-align: center;
+      }
+    }
+
+    li:last-child {
+      margin-right: 0px;
+
+    }
+  }
+
+  img {
+    border-radius: 20%;
+    border: solid;
+    border-width: thick;
+    border-color: #8b8b8b;
+  }
+}
+
+//
+// /****************************************************************
+// -----------------------------------------------------------------
+//     skillページここから
+// -----------------------------------------------------------------
+// *****************************************************************/
+//
+// .skillmain{
+//   height: calc(100vh - 100px);
+//   background-color: #222;
+// }
