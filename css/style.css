@@ -163,7 +163,8 @@ footer {
   height: calc(100vh - 100px);
   background-color: #222;
   color: #f6f6f6;
-  font-family: YuMincho; }
+  font-family: YuMincho;
+  font-weight: lighter; }
   .aboutmain .about_me {
     writing-mode: vertical-rl;
     max-width: 100%;
